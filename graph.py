@@ -7,6 +7,7 @@ from langchain_core.tools import tool
 from langgraph.prebuilt import ToolNode, tools_condition
 from langgraph.graph import StateGraph, START,END
 import os
+assert os.getenv("OPENAI_API_KEY"), "❌ OPENAI_API_KEY is missing!"
 
 
 @tool
