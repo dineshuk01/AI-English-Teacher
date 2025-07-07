@@ -3,6 +3,7 @@ streamlit-webrtc
 openai
 python-dotenv
 SpeechRecognition
+graph
 
 langgraph
 langchain
